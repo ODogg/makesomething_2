@@ -1,0 +1,165 @@
+html, body {
+    font-family: "Brandon Grotesque Bold" Helvetica;
+}
+    
+.container {
+    width:  100%;
+    margin:  0 auto;
+}
+
+.logo   {
+    box-sizing: border-box;
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+/*img     {
+    height: 1.1em;;
+}*/
+
+.about {
+    background-color:  white;
+    width:  98%;
+    margin:  0 auto;
+    height: 6em;
+    text-align: center;
+    padding: 1.5em .2em;
+}
+
+.about>h1 {
+    display:  block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.about>h1:first-child {
+    float: left;
+}
+
+.about>h1:last-child {
+    float: right;
+    margin-right: 3%;
+}
+
+.about>h2 {
+    display:  block;
+    margin: 0 auto;
+}
+
+.work_container    {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+@media (min-width: 480px) {
+        .work_container {
+            position: absolute;
+            margin-bottom: 3%;
+            border: 1px solid black;
+        }
+        .work_section_1:nth-child(1) {
+            margin-right: 2%;
+        }
+         .work_section_1:nth-child(3) {
+            margin-right: 2%;
+        }
+}
+
+.inner_box  {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    vertical-align: middle;
+    display: table;
+    height: 100%;
+}
+
+.work_container h2  {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    position: relative;
+    float: none;
+    clear: both;
+}
+
+.work   {
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    font-size:  1.125em;
+}
+
+.work_section  {
+    margin: 5% 5%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.work_section_1   {
+    border-radius: 5px;
+    padding: 10%;
+    margin: 5% 0;
+}
+
+.work_section_2  {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10%;
+}
+
+
+
+.about_2  {
+    height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    font-size:  1.125em;
+}
+
+.about_2    {
+}
+
+.about_headline {
+
+}
+
+.avatar {
+}
+
+.about_text {
+    display: inline-block;
+    text-align: left;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+/*/************MEDIA QUERIES****************/
+
+@media (min-width: 480px) {
+   .work_section_1, .work_section_2   {
+        display: inline-block;
+        width: 49%;
+        margin: 0;
+        padding: 10% 0;
+        float: left;
+        position: relative;
+    }
+
+}
+
+
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+
+
+
+
+
+
+
